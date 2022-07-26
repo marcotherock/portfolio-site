@@ -2,7 +2,7 @@ body {
     background-color: #f4f1de;
     font-family: 'Open Sans', sans-serif;
   }
-h1,h2 {
+.questions, #title {
     text-align: center;
     color: #3d405b;
 }
@@ -11,11 +11,17 @@ span {
     border-radius: 25px;
     display: inline-block;
     padding: 15px;
-    margin-bottom: 100px;
 }
 
+.menu {   
+    text-align: center;
+    color: #e76f51;
+    border-bottom: none;
+}
+
+
 .center {
-    margin-top: 20%;
+    margin-top: 18%;
   }
 
   a {

@@ -12,6 +12,7 @@ span {
     display: inline;
     padding: 15px;
     margin-bottom: 100px;
+    width: fit-content;
 }
 
 .center {

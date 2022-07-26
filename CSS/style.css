@@ -33,3 +33,11 @@ span {
   a:hover {
     color: #81b29a;
   }
+
+  p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: larger;
+  }
+
+  

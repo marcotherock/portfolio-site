@@ -3,6 +3,14 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #3d405b;
   }
+
+  h3 {
+    text-align: center;
+    font-size: larger;
+  }
+  
+  /* title */
+
 .questions, #title {
     text-align: center;
     color: #3d405b;
@@ -14,12 +22,15 @@ span {
     padding: 15px;
 }
 
+/* menu */
+
 .menu {   
     text-align: center;
     color: #e76f51;
     border-bottom: none;
 }
 
+/* links */
   a {
     border-bottom: 4.5px dotted #3d405b;
     color: #3d405b;
@@ -30,13 +41,16 @@ span {
     color: #81b29a;
   }
 
-  h3 {
-    text-align: center;
-    font-size: larger;
-  }
+
+
+/* icons */
+
   .icon {
     height: 50px;
   }
+
+  /* sections */
+
   section {
     position: relative;
     width: 100%;
@@ -52,7 +66,8 @@ span {
     padding-bottom: 20%;
     background-color: #e76f51;
   }
-  
+
+  /* animations */
   @keyframes example {
     from  {color: #f4f1de;}
     to {color: #3d405b; }
@@ -62,7 +77,7 @@ span {
     animation-name: example;
     animation-duration: 5s;
   }
-  
+  /* back to top */
   #top {
     text-align: right;
     padding-right: 10%;
@@ -102,5 +117,50 @@ span {
   .tile8 { grid-area: tile8; background-color: #e76f51; height: 250px; width: 360px;}
   
   .tile9 { grid-area: tile9; background-color: #e76f51; height: 250px; width: 720px;}
+
+/* Mobile version */
+
+@media only screen and (max-width: 600px) {
+  .container {  display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px 300px;
+    gap: 20px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "tile1"
+      "tile2"
+      "tile3"
+      "tile4"
+      "tile5"
+      "tile6"
+      "tile7"
+      "tile8"
+      "tile9";
+  }
+  
+  .tile1 { grid-area: tile1; }
+  
+  .tile2 { grid-area: tile2; }
+  
+  .tile3 { grid-area: tile3; }
+  
+  .tile4 { grid-area: tile4; }
+  
+  .tile5 { grid-area: tile5; }
+  
+  .tile6 { grid-area: tile6; }
+  
+  .tile7 { grid-area: tile7; }
+  
+  .tile8 { grid-area: tile8; }
+  
+  .tile9 { grid-area: tile9; }
+  
+  #index {
+    padding-top: 30%;
+    padding-bottom: 30%;
+    background-color: #f4f1de;
+  }
+}
   
   

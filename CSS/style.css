@@ -125,6 +125,7 @@ span {
     grid-template-columns: 300px;
     grid-template-rows: 300px 300px 300px 300px 300px 300px 300px 300px 300px;
     gap: 20px 0px;
+    padding-right: 10%;
     grid-auto-flow: row;
     grid-template-areas:
       "tile1"

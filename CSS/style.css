@@ -139,23 +139,23 @@ span {
       "tile9";
   }
   
-  .tile1 { grid-area: tile1; height: 250px; width: 360px;}
+  .tile1 { grid-area: tile1; height: 250px; width: 250px;}
   
-  .tile2 { grid-area: tile2; height: 250px; width: 360px;}
+  .tile2 { grid-area: tile2; height: 250px; width: 250px;}
   
-  .tile3 { grid-area: tile3; height: 250px; width: 360px;}
+  .tile3 { grid-area: tile3; height: 250px; width: 250px;}
   
-  .tile4 { grid-area: tile4; height: 250px; width: 360px;}
+  .tile4 { grid-area: tile4; height: 250px; width: 250px;}
   
-  .tile5 { grid-area: tile5; height: 250px; width: 360px;}
+  .tile5 { grid-area: tile5; height: 250px; width: 250px;}
   
-  .tile6 { grid-area: tile6; height: 250px; width: 360px;}
+  .tile6 { grid-area: tile6; height: 250px; width: 250px;}
   
-  .tile7 { grid-area: tile7; height: 250px; width: 360px;}
+  .tile7 { grid-area: tile7; height: 250px; width: 250px;}
   
-  .tile8 { grid-area: tile8; height: 250px; width: 360px;}
+  .tile8 { grid-area: tile8; height: 250px; width: 250px;}
   
-  .tile9 { grid-area: tile9; height: 250px; width: 360px;}
+  .tile9 { grid-area: tile9; height: 250px; width: 250px;}
   
   #index {
     padding-top: 50%;

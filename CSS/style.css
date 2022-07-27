@@ -43,8 +43,8 @@ span {
     height: 100%;
   }
   #index {
-    padding-top: 50vh;
-    padding-bottom: 50vh;
+    padding-top: 20%;
+    padding-bottom: 20%;
     background-color: #f4f1de;
   }
   #About_me {
@@ -85,22 +85,22 @@ span {
       padding-left: 10%;
       
   }
-  .tile1 { grid-area: tile1; background-color: #e76f51; height: 26vh; width: 40vh;}
+  .tile1 { grid-area: tile1; background-color: #e76f51; height: 250px; width: 360px; }
 
-  .tile2 { grid-area: tile2; background-color: #e76f51; height: 26vh; width: 40vh;}
+  .tile2 { grid-area: tile2; background-color: #e76f51; height: 250px; width: 360px; }
   
-  .tile3 { grid-area: tile3; background-color: #e76f51; height: 26vh; width: 80vh;}
+  .tile3 { grid-area: tile3; background-color: #e76f51;  height: 250px; width: 720px;}
   
-  .tile4 { grid-area: tile4; background-color: #e76f51; height: 26vh; width: 40vh; }
+  .tile4 { grid-area: tile4; background-color: #e76f51; height: 250px; width: 360px; }
   
-  .tile5 { grid-area: tile5; background-color: #e76f51; height: 26vh; width: 40vh;}
+  .tile5 { grid-area: tile5; background-color: #e76f51; height: 250px; width: 360px;}
   
-  .tile6 { grid-area: tile6; background-color: #e76f51; height: 26vh; width: 80vh;}
+  .tile6 { grid-area: tile6; background-color: #e76f51; height: 250px; width: 720px;}
   
-  .tile7 { grid-area: tile7; background-color: #e76f51; height: 26vh; width: 40vh;}
+  .tile7 { grid-area: tile7; background-color: #e76f51; height: 250px; width: 360px;}
   
-  .tile8 { grid-area: tile8; background-color: #e76f51; height: 26vh; width: 40vh; }
+  .tile8 { grid-area: tile8; background-color: #e76f51; height: 250px; width: 360px;}
   
-  .tile9 { grid-area: tile9; background-color: #e76f51; height: 26vh; width: 80vh;}
+  .tile9 { grid-area: tile9; background-color: #e76f51; height: 250px; width: 720px;}
   
   

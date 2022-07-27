@@ -95,8 +95,8 @@ span {
 
   /* tiles */
   .container {  display: grid;
-    grid-template-columns: 25% 25% 50%;
-    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     gap: 10px 10px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -107,23 +107,23 @@ span {
       padding-left: 10%;
       
   }
-  .tile1 { grid-area: tile1; background-color: #e76f51; height: 250px; width: 360px; box-shadow: #3d405b 0px 2px 8px; }
+  .tile1 { grid-area: tile1; background-color: #e76f51;  box-shadow: #3d405b 0px 2px 8px; }
 
-  .tile2 { grid-area: tile2; background-color: #e76f51; height: 250px; width: 360px; box-shadow: #3d405b 0px 2px 8px; }
+  .tile2 { grid-area: tile2; background-color: #e76f51; box-shadow: #3d405b 0px 2px 8px; }
   
-  .tile3 { grid-area: tile3; background-color: #e76f51;  height: 250px; width: 720px; box-shadow: #3d405b 0px 2px 8px; }
+  .tile3 { grid-area: tile3; background-color: #e76f51; box-shadow: #3d405b 0px 2px 8px; }
   
-  .tile4 { grid-area: tile4; background-color: #e76f51; height: 250px; width: 360px; box-shadow: #3d405b 0px 2px 8px; }
+  .tile4 { grid-area: tile4; background-color: #e76f51; box-shadow: #3d405b 0px 2px 8px; }
   
-  .tile5 { grid-area: tile5; background-color: #e76f51; height: 250px; width: 360px; box-shadow: #3d405b 0px 2px 8px; }
+  .tile5 { grid-area: tile5; background-color: #e76f51; box-shadow: #3d405b 0px 2px 8px; }
   
-  .tile6 { grid-area: tile6; background-color: #e76f51; height: 250px; width: 720px; box-shadow: #3d405b 0px 2px 8px; }
+  .tile6 { grid-area: tile6; background-color: #e76f51; box-shadow: #3d405b 0px 2px 8px; }
   
-  .tile7 { grid-area: tile7; background-color: #e76f51; height: 250px; width: 360px; box-shadow: #3d405b 0px 2px 8px; }
+  .tile7 { grid-area: tile7; background-color: #e76f51; box-shadow: #3d405b 0px 2px 8px; }
+
+  .tile8 { grid-area: tile8; background-color: #e76f51; box-shadow: #3d405b 0px 2px 8px; }
   
-  .tile8 { grid-area: tile8; background-color: #e76f51; height: 250px; width: 360px; box-shadow: #3d405b 0px 2px 8px; }
-  
-  .tile9 { grid-area: tile9; background-color: #e76f51; height: 250px; width: 720px; box-shadow: #3d405b 0px 2px 8px; }
+  .tile9 { grid-area: tile9; background-color: #e76f51; box-shadow: #3d405b 0px 2px 8px; }
 
   .tile_title{
     text-align: center;
@@ -135,7 +135,7 @@ span {
 
   .tile_icon {
     border-bottom: 0px;
-    padding:140px;
+    padding:40%;
     color: #3d405b;
   }
 

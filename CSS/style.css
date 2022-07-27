@@ -1,0 +1,167 @@
+body {
+    background-color: #f4f1de;
+    font-family: 'Open Sans', sans-serif;
+    color: #3d405b;
+}
+/* section */
+
+#introduction {
+    padding: 20%;
+}
+
+/* portfolio */
+#portfolio {
+    padding-bottom: 50%;
+    padding-top: 10%;
+    padding-left: 22%;
+    background-color: #e76f51;;
+}
+
+/* Challenges */
+#challenges {
+    padding-bottom: 50%;
+    padding-top: 10%;
+    padding-left: 22%;
+    background-color: #f4f1de;;
+}
+
+/* contacts */
+
+#contacts {
+    padding-bottom: 50%;
+    padding-top: 10%;
+    padding-left: 22%;
+    background-color: #e76f51;;
+}
+
+/* button */
+#intro_btn {
+    position: absolute;
+    border-radius: 25px;
+    border-width: 4px;;
+    border-color: #e76f51;
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 1%;
+    background-color: #f4f1de;
+}
+
+#portfolio_btn {
+    position: relative;
+    border-radius: 25px;
+    border-width: 4px;;
+    border-color: #e76f51;
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 1%;
+    background-color: #f4f1de;
+    top: 100px;
+    left: 46%;
+}
+
+#contacts_btn {
+    position: relative;
+    border-radius: 25px;
+    border-width: 4px;;
+    border-color: #e76f51;
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 1%;
+    background-color: #f4f1de;
+    top: 100px;
+    left: 48%;
+}
+
+/* tiles */
+
+.tile {
+    float: left;
+    width: 21%;
+    padding: 10px;
+    margin: 20px;
+    height: 250px;
+    background-color:#f4f1de;
+}
+
+.tile2 {
+    float: left;
+    width: 21%;
+    padding: 10px;
+    margin: 20px;
+    height: 250px;
+    background-color:#e76f51;
+}
+
+/* links */
+a {
+    color: #3d405b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #81b29a;
+}
+
+#top{
+    padding-left: 70%;
+}
+
+/* icons */
+.icon {
+    height: 50px;
+}
+
+/* animations */
+@keyframes example {
+    from  {color: #f4f1de; opacity: 0%;}
+    to {color: #3d405b; opacity: 100%;}
+  }
+
+  #title {
+    animation-name: example;
+    animation-duration: 2s;
+  }
+  .about_me {
+    animation-name: example;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    animation-duration: 2s;
+  }
+  .about_me2 {
+    animation-name: example;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    animation-duration: 2s;
+  }
+  .about_me3 {
+    animation-name: example;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    animation-duration: 2s;
+  }
+  .about_me4 {
+    position: relative;
+    left: 50%;
+
+    animation-name: example;
+    animation-delay: 4s;
+    animation-fill-mode: backwards;
+    animation-duration: 2s;
+  }
+
+  #intro__btn {
+    animation-name: example;
+    animation-delay: 4s;
+    animation-fill-mode: backwards;
+    animation-duration: 2s;
+  }
+
+
+
+  

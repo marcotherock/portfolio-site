@@ -127,6 +127,11 @@ span {
   .tile_dsc {
     text-align: center;
   }
+  
+  .fa_icon {
+    border-bottom: 0px;
+    padding:140px;
+  }
 
 /* Mobile version */
 
@@ -149,32 +154,42 @@ span {
       "tile9";
   }
   
-  .tile1 { grid-area: tile1; height: 250px; width: 270px;}
+  .tile1 { grid-area: tile1; height: 250px; width: 300px;}
   
-  .tile2 { grid-area: tile2; height: 250px; width: 270px;}
+  .tile2 { grid-area: tile2; height: 250px; width: 300px;}
   
-  .tile3 { grid-area: tile3; height: 250px; width: 270px;}
+  .tile3 { grid-area: tile3; height: 250px; width: 300px;}
   
-  .tile4 { grid-area: tile4; height: 250px; width: 270px;}
+  .tile4 { grid-area: tile4; height: 250px; width: 300px;}
   
-  .tile5 { grid-area: tile5; height: 250px; width: 270px;}
+  .tile5 { grid-area: tile5; height: 250px; width: 300px;}
   
-  .tile6 { grid-area: tile6; height: 250px; width: 270px;}
+  .tile6 { grid-area: tile6; height: 250px; width: 300px;}
   
-  .tile7 { grid-area: tile7; height: 250px; width: 270px;}
+  .tile7 { grid-area: tile7; height: 250px; width: 300px;}
   
-  .tile8 { grid-area: tile8; height: 250px; width: 270px;}
+  .tile8 { grid-area: tile8; height: 250px; width: 300px;}
   
-  .tile9 { grid-area: tile9; height: 250px; width: 270px;}
+  .tile9 { grid-area: tile9; height: 250px; width: 300px;}
   
   #index {
     padding-top: 50%;
     padding-bottom: 50%;
     background-color: #f4f1de;
   }
+
+  .tile_title{
+    text-align: center;
+  }
+  
+  .tile_dsc {
+    text-align: center;
+  }
+
+  .fa_icon {
+    border-bottom: 0px;
+    padding:140px;
+  }
+
 }
   
-.fa_icon {
-  border-bottom: 0px;
-  padding:140px;
-}

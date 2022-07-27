@@ -20,11 +20,6 @@ span {
     border-bottom: none;
 }
 
-
-/* .center {
-    padding-top: 18%;
-  } */
-
   a {
     border-bottom: 4.5px dotted #3d405b;
     color: #3d405b;
@@ -88,23 +83,24 @@ span {
       "tile7 tile8 tile9";
       width: 80%;
       padding-left: 10%;
+      
   }
-  .tile1 { grid-area: tile1; background-color: #e76f51; height: 250px; width: 377px;}
+  .tile1 { grid-area: tile1; background-color: #e76f51; height: 26vh; width: 40vh;}
 
-  .tile2 { grid-area: tile2; background-color: #e76f51; height: 250px; width: 377px;}
+  .tile2 { grid-area: tile2; background-color: #e76f51; height: 26vh; width: 40vh;}
   
-  .tile3 { grid-area: tile3; background-color: #e76f51; height: 250px;}
+  .tile3 { grid-area: tile3; background-color: #e76f51; height: 26vh; width: 80vh;}
   
-  .tile4 { grid-area: tile4; background-color: #e76f51; height: 250px; }
+  .tile4 { grid-area: tile4; background-color: #e76f51; height: 26vh; width: 40vh; }
   
-  .tile5 { grid-area: tile5; background-color: #e76f51; height: 250px;}
+  .tile5 { grid-area: tile5; background-color: #e76f51; height: 26vh; width: 40vh;}
   
-  .tile6 { grid-area: tile6; background-color: #e76f51; height: 250px;}
+  .tile6 { grid-area: tile6; background-color: #e76f51; height: 26vh; width: 80vh;}
   
-  .tile7 { grid-area: tile7; background-color: #e76f51; height: 250px;}
+  .tile7 { grid-area: tile7; background-color: #e76f51; height: 26vh; width: 40vh;}
   
-  .tile8 { grid-area: tile8; background-color: #e76f51; height: 250px; }
+  .tile8 { grid-area: tile8; background-color: #e76f51; height: 26vh; width: 40vh; }
   
-  .tile9 { grid-area: tile9; background-color: #e76f51; height: 250px;}
+  .tile9 { grid-area: tile9; background-color: #e76f51; height: 26vh; width: 80vh;}
   
   

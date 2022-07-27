@@ -118,6 +118,10 @@ span {
   
   .tile9 { grid-area: tile9; background-color: #e76f51; height: 250px; width: 720px;}
 
+  .tile_title{
+    text-align: center;
+  }
+
 /* Mobile version */
 
 @media only screen and (max-width: 600px) {

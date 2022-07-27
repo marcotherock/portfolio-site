@@ -6,6 +6,10 @@ body {
     color: #3d405b;
   }
 
+h1 {
+  text-align: center;
+}
+
   h3 {
     text-align: center;
     font-size: larger;
@@ -16,6 +20,7 @@ body {
 .questions, #title {
     text-align: center;
     color: #3d405b;
+    
 }
 span {
     border: 4px solid #3d405b;
@@ -33,7 +38,7 @@ span {
 }
 
 /* links */
-  a {
+.W {
     border-bottom: 4.5px dotted #3d405b;
     color: #3d405b;
     text-decoration: none;
@@ -128,9 +133,10 @@ span {
     text-align: center;
   }
 
-  .fa_icon {
+  .tile_icon {
     border-bottom: 0px;
     padding:140px;
+    color: #3d405b;
   }
 
 /* Mobile version */
@@ -186,10 +192,18 @@ span {
     text-align: center;
   }
 
-  .fa_icon {
+  .tile_icon {
     border-bottom: 0px;
     padding:120px;
+    color: #3d405b;
   }
 
+}
+
+/* contacts */
+
+.icon {
+  text-decoration: none;
+  color: #3d405b;
 }
   

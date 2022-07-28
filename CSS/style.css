@@ -135,8 +135,10 @@ span {
 
   .tile_icon {
     border-bottom: 0px;
-    padding:40%;
     color: #3d405b;
+    display:block;
+    margin-left: auto;
+    width: 60%;
   }
 
 /* Mobile version */
@@ -194,8 +196,11 @@ span {
 
   .tile_icon {
     border-bottom: 0px;
-    padding:120px;
     color: #3d405b;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
 }

@@ -80,10 +80,11 @@ span {
     to {color: #3d405b; }
   }
 
-  #title {
+  #main_title {
     animation-name: example;
     animation-duration: 5s;
   }
+
   /* back to top */
   #top {
     text-align: right;

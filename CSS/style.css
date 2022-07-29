@@ -44,11 +44,17 @@ span {
     text-decoration: none;
   }
 
+  a {
+    text-decoration: none;
+    color: #3d405b;
+    @media screen {
+      color: #e76f51;
+    }
+  }
+
   a:hover {
     color: #81b29a;
   }
-
-
 
 /* icons */
 
@@ -211,4 +217,30 @@ span {
   text-decoration: none;
   color: #3d405b;
 }
-  
+
+/* converter */
+
+input {
+  display: block; 
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 45px;
+  text-align: center;
+}
+
+.convert {
+  display: block; 
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  border-radius: 45px;
+  text-align: center;
+  font-size: large;
+  background-color: #e76f51;
+  border:none;
+}
+
+.convert:hover{
+  background-color: #81b29a;
+}

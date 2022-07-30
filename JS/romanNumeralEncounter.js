@@ -1,6 +1,6 @@
 function getInputValue() {
     let inputVal = document.getElementsByClassName("inputClass")[0].value;
-    alert(solution(inputVal));
+    document.getElementById("result").innerHTML= "The result is: " + solution(inputVal);
     
 }
 
@@ -8,8 +8,6 @@ function solution (roman) {
  
     let letters = roman.split("");
     let solution = [];
-
-    // Check for unlawful repetions
 
     for (let i=0; i<letters.length; i++) {
         if (letters[i] === "M" && letters[i+1] === "M" && letters[i+2] === "M" && letters[i+3] === "M") {

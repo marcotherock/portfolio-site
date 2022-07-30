@@ -1,6 +1,6 @@
 function getInputValue() {
     let inputVal = document.getElementsByClassName("inputClass")[0].value;
-    alert(toCamelCase(inputVal));
+    document.getElementById("result").innerHTML= "The result is: " + toCamelCase(inputVal);
     
 }
 

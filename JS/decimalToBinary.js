@@ -1,6 +1,5 @@
 function getInputValue() {
     let inputVal = document.getElementsByClassName("inputClass")[0].value;
-    // alert(toDecimal(inputVal));
     document.getElementById("result").innerHTML= "The result is: " + toDecimal(inputVal);
 }
 

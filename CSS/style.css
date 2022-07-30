@@ -244,3 +244,7 @@ input {
 .convert:hover{
   background-color: #81b29a;
 }
+
+#result {
+  font-size: x-large;
+}

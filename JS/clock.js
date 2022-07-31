@@ -1,4 +1,4 @@
-function showTime(){
+window.onload = function showTime(){
     var date = new Date();
     var h = date.getHours(); // 0 - 23
     var m = date.getMinutes(); // 0 - 59
@@ -23,4 +23,5 @@ function showTime(){
     document.getElementById("MyClockDisplay").textContent = time;
     
     setTimeout(showTime, 1000);
+    
 }

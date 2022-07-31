@@ -260,3 +260,69 @@ input {
   letter-spacing: 7px;
   font-weight: bold;
 }
+
+/* Weather app */
+.card{
+  display: grid;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #81b29a50;
+  width: 400px;
+  border-radius: 25px;
+  box-shadow: #3d405b 0px 2px 8px;
+}
+
+.search {
+  display: flex;
+  margin: auto;
+}
+
+.search-bar{
+  margin: 0;
+  display: inline;
+}
+
+.search-button {
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 25px;
+  vertical-align: middle;
+  color: #e76f51;
+}
+
+.search-button:hover {
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 25px;
+  vertical-align: middle;
+  color: #81b29a;
+}
+
+.city {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+  border-bottom: #3d405b 2px solid;
+}
+
+.temp {
+  font-size: 50px;
+
+}
+
+.weather.loading {
+  visibility: hidden;
+  max-height: 20px;
+  position: relative;
+}
+
+.weather.loading:after {
+  visibility: visible;
+  color: #3d405b;
+  position: absolute;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}

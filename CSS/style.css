@@ -248,3 +248,15 @@ input {
 #result {
   font-size: x-large;
 }
+
+/* clock */
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #3d405b;
+  font-size: 60px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+}

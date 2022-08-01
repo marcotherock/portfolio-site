@@ -24,7 +24,6 @@ var answers = ["It is certain",
 window.onload = function() {
     var eight = document.getElementById("eight");
     var answer = document.getElementById("answer");
-    var eightball = document.getElementById("eight-ball");
     var question = document.getElementById("question");
 
 question.addEventListener("keypress", function(e) {
@@ -36,6 +35,13 @@ question.addEventListener("keypress", function(e) {
             var num = Math.floor(Math.random() * Math.floor(answers.length));
             answer.innerText = answers[num];
             }      }
-
+            setTimeout(reset, 5000)
     });
 };
+
+function reset () {
+    eight.innerText = "8";
+    answer.innerText = "";
+    question.value = "";
+    question.placeholder = "Another one!"
+}

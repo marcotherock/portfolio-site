@@ -1,39 +1,184 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Marco La Rocca</title>
-    <link rel="stylesheet" href="CSS/style.css">
-  </head>
-  <body>
-    <section id="index">
-     
-        <h1 id="main_title"><span>Welcome to my portfolio website</span> </h1>
-        <h2 class="questions"><a class="W" href="#About_me">Who</a> am I? </h2>
-        <h2 class="questions"><a class="W" href="portfolio.html">What</a> can I do?</h2>
-        <h2 class="questions"><a class="W" href="contacts.html">Where</a> to find me?</h2>
-      
-    </section>
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Marco La Rocca</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img src="images/passport (1).jpg" alt="" /></span>
+							<h1 id="title">Marco La Rocca</h1>
+							<p>Software Developer</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">	
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Hi! I'm <strong>Marco La Rocca</strong>, an aspiring<br />
+								Software Developer.</h2>
+								<p>Check out what I have been practicing on!</p>
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">Portfolio</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="portfolio" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Portfolio</h2>
+							</header>
+
+							<p>Here you can find some of the projects I have been working on, for more information projects, check my GitHub account.</p>
+
+							<div class="row">
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="weather_app.html" class="image fit"><img src="images/Weather App.jpg" alt="weather app image" /></a>
+										<header>
+											<h3>Weather App</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="clock.html" class="image fit"><img src="images/Clock.jpg" alt="clock image" /></a>
+										<header>
+											<h3>Clock</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="roman_number.html" class="image fit"><img src="images/Roman Number.jpg" alt="" /></a>
+										<header>
+											<h3>Roman Numbers Decoder</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="binary.html" class="image fit"><img src="images/Binary.jpg" alt="" /></a>
+										<header>
+											<h3>Binary Number Converter</h3>
+										</header>
+									</article>
+								</div>
+								<div class="col-4 col-12-mobile">
+									<article class="item">
+										<a href="camel.html" class="image fit"><img src="images/Camel.jpg" alt="" /></a>
+										<header>
+											<h3>Snake to Camel Converter</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="magic_8_ball.html" class="image fit"><img src="images/magic 8 ball.jpg" alt="" /></a>
+										<header>
+											<h3>Magic 8 Ball</h3>
+										</header>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="images/about me.jpg" alt="" /></a>
+
+							<p>I'm a passionate italian and aspiring junior software developer.
+								I have a managerial background in healthcare and experience working in challenging environments.
+								I am totally committed to a career change and I will bring with me my awarded team working and problem solving skills.
+								I cannot wait to learn more and develop into the role.</p>
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p>Elementum sem parturient nulla quam placerat viverra
+							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
+							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
+							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+
+							<form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="col-12">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
+
+						</div>
+					</section>
+
+			</div>
 
 
-      
-    <section id="About_me">      
-      <h3>My name is Marco La Rocca</h3>
-      <h3>I'm an aspiring junior software developer who has previously worked in challenging environments like humanitarian missions and pandemic response.</h3>
-      <h3>I have a managerial background in healthcare that has improved my soft skills, from time management and problem solving to team working and conflict resolution. </h3>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-      <h3>I have been studying really hard programming and looking forward to put my skills to work</h3>
-      <h3>Below you can see some of the languages I have been studying:</h3>
-      <h3>
-        <img class="icon" src="images/HTML5.png" alt="HTML5 logo">
-        <img class="icon" src="images/CSS3.png" alt="CSS3 logo">
-        <img class="icon" src="images/js.png" alt="JS logo">
-        <img class="icon" src="images/python.png" alt="Python logo">
-        <img class="icon" src="images/ruby.png" alt="Ruby logo">
-      </h3>
-      <h4 id="top"><a id="top" href="">Back To Top</a></h4>
-    </section>
-  </body>
+	</body>
 </html>
